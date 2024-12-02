@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+    <link href="css/grid.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <title>Welcome to The Couples Resort</title>
+</head>
+    <body>
+        <div id="mobile-outline">
+        <h1 class="hidden">Welcome to The Couples Resort</h1>
+        <!-- Main Nav -->         
+            <header class="grid-con" id="main-header">
+                <nav id="main-nav" class="col-span-full">
+                    <h2 class="hidden">Main Navigation</h2>
+                    <input type="checkbox" id="hamburger">
+                    <label for="hamburger">
+                    <img src="image/burger.svg" alt="hamburger menu icon">
+                    </label>
+                    <div id="burger-con">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="room.html">Rooms</a></li>
+                            <li><a href="packages">Packages</a></li>
+                            <li><a href="dining.html">Dining</a></li>
+                            <li><a href="spa.html">Spa Activites</a></li>
+                            <li><a href="reservations">Reservations</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div id="logo" class="col-span-full">
+                    <img src="image/couples_resort_logo.svg" alt="Couples Resort Logo">
+                </div>
+            </header>        
+        <!-- Main Hero -->
+
+        <div class="grid-con">
+            <section class="col-span-full">
+              <h2>Room Styles</h2>
+              <ul>
+                <li>Private Outdoor Hot Tubs</li>
+                <li>Spacious Lakeside View</li>
+                <li>Wood-Burning Fireplace</li>
+                <li>European Shower</li>
+                <li>King-Size Beds</li>
+                <li>Free Wi-Fi and Netflix</li>
+                <li>Complimentary Coffee Maker</li>
+                <li>Plush Bathrobes</li>
+              </ul>
+              <img src="image/CR_RM_1.jpg" alt="Room Styles" width="412" height="200">
+            </section>
+        </div>
+        <div class="grid-con">
+        
+            <section class="col-span-full">
+              <h2>Chateaus</h2>
+              <ul>
+                <li>1500 sq ft</li>
+                <li>Private Hot Tub</li>
+                <li>Luxury Furnishings</li>
+                <li>Steam Shower</li>
+              </ul>
+              <img src="image/CR_RM_2.jpg" alt="Chateaus" width="412" height="200">
+            </section>
+        </div>
+        <div class="grid-con">
+            <section class="col-span-full">
+              <h2>Villas</h2>
+              <ul>
+                <li>1000 sq ft</li>
+                <li>Private Outdoor Hot Tub</li>
+                <li>Personal Sauna</li>
+                <li>Luxury Amenities</li>
+              </ul>
+              <img src="image/CR_RM_3.jpg" alt="Villas" width="412" height="200">
+            </section>
+        </div>
+        <div class="grid-con">
+        
+            <section class="col-span-full">
+              <h2>Masters</h2>
+              <ul>
+                <li>1000 sq ft</li>
+                <li>Steam Shower</li>
+                <li>Private Outdoor Hot Tub</li>
+                <li>Fully Equipped Kitchen</li>
+              </ul>
+              <img src="image/CR_RM_4.jpg" alt="Masters"width="412" height="200">
+            </section>
+        </div>
+        <div>
+
+            <section class="col-span-full">
+                <h2>Chalet</h2>
+                <ul>
+                  <li>700 sq ft</li>
+                  <li>Private Out Door Hot Tubs</li>
+                  <li>Private cabin</li>
+                </ul>
+                <img src="image/CR_RM_5.jpg" alt="Chalet" width="412" height="200">
+              </section>
+        </div>
+        <div>
+        
+            <section class="col-span-full">
+              <h2>Exotics</h2>
+              <ul>
+                <li>2400 sq ft</li>
+                <li>Private Outdoor Hot Tub</li>
+                <li>Luxury Bathrooms</li>
+                <li>Custom Furnishings</li>
+              </ul>
+              <img src="image/CR_RM_6.jpg" alt="Exotics" width="412" height="200">
+            </section>
+        </div>
+        
+           
+
+        <section class="grid-con">
+            <div id="contact-hero-heading-box" class="col-span-full">
+                <h2 class="hero-img-h2"><span>Couples Resort</span><br> Contact</h2>
+            </div>
+        </section>
+
+            
+        <section class="grid-con">
+            <h2 class="hidden">Contact Information</h2>
+            <div id="contact-hero-text" class="line-separator col-span-full">
+                <p>Thank you for taking the time to learn more about our resort and why we are Ontario's number one choice for couples looking to reconnect. For reservation enquiries and further information, please complete our contact form below. Or if you prefer to talked call us at our toll free number listed below.</p>
+            </div>
+            <div id="contact-hero-address" class="col-span-full">          
+                <h3>Couples Resort (Inc.)</h3>
+                <p>1198 Osprey Rd, (End of)<br>
+                Minden, Soyers Lake, ON, <br>K0M 2K0</p>
+                <h3 class="hidden">Phone, Fax and Email</h3>
+                <p>Toll Free:+1 877 201-1156<br>
+                    FAX:+1 613 638 2217<br>
+                    E-mail: info[at]coupleresort.com </p>         
+            </div>
+            <div id="contact-hero-form" class="col-span-full">
+                <form action="email.php" method="POST" enctype="text/plain">
+                    <input name="fullName" type="text" placeholder="First & Last Name">
+                    <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                    <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                    <input name="submit" type="submit" value="Send">
+                </form>
+            </div>
+        </section>
+            
+        <footer id="footer-hero" class="grid-con">        
+                <section id="footer-contact-info" class="col-span-full">
+                    <h3>Couples Resort</h3>
+                    <p>1198 Osprey Rd, (End of)<br>
+                        Minden, Soyers Lake, ON, <br>
+                        K0M 2K0
+                    </p>
+                    <p>
+                        Toll Free:+1 877 201-1156<br>
+                        FAX:+1 613 638 2217<br>
+                        E-mail: info@coupleresort.com
+                    </p>
+                </section>
+                <div id="footer-privacy" class="col-span-full line-separator">
+                    <p id="price-policy">All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing. ©2013 Couples Resort Inc. All Rights Reserved. Privacy Policy </p>
+                </div>
+        </footer>
+        </div>
+        <script src="js/main.js"></script>   
+    </body>
+</html>
