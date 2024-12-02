@@ -19,6 +19,12 @@ Couples Resort Responsive Build
 
  /* 1. ---General Styles--- */
 
+ #mobile-outline {
+   max-width: 412px;
+   margin: 20px auto 20px auto;
+   border-radius: 10px;
+}
+
 body {
    color: #626262;
    font-family: 'Sanchez', 'Times New Roman', serif;
